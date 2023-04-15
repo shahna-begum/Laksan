@@ -1,0 +1,615 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root,
+html {
+  font-size: 62.5%;
+}
+.whole-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.section {
+  /* height: 100vh; */
+  width: 100vw;
+}
+.nav-container {
+  padding: 2rem 22rem;
+  /* background: cornflowerblue; */
+}
+.nav-container a {
+  color: #ffffff69;
+}
+.nav-container .nav > li > a:hover {
+  background-color: transparent;
+  color: white;
+}
+.first-section {
+  background: linear-gradient(to top, #000000a3, #00000026),
+    url("../assets/img/bg/home-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  padding-right: 0;
+}
+.first-section-content {
+  margin: 11% auto 0;
+}
+.section-content-col {
+  padding-left: 23rem;
+  padding-top: 7rem;
+}
+.section-content-col h1 {
+  color: white;
+  font-size: 9rem;
+}
+.section-content-col p {
+  margin: 3rem 0;
+  font-size: 1.6rem;
+  color: #ffffffd9;
+  letter-spacing: 0px;
+  word-spacing: 3px;
+}
+.btn.download-now-btn {
+  color: white;
+  padding: 1.7rem 4rem;
+  border-radius: 30px;
+  background-image: linear-gradient(135deg, #abdcff 5%, #00c4ff 100%);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.section-content-col .btn.download-now-btn:focus {
+  outline: 0;
+  border: 0;
+}
+.second-section {
+  margin-top: 9.7rem;
+  padding: 0 24rem;
+  /* margin-bottom: 9.7rem; */
+}
+.second-section p {
+  font-size: 1.9rem;
+  font-weight: 700;
+  max-width: 965px;
+  margin: 0 auto 9rem;
+}
+.second-section .features-card {
+  display: flex;
+  justify-content: center;
+}
+.second-section .features-card .card {
+  max-width: 32rem;
+  padding: 7rem 0rem;
+  border-radius: 5px;
+  box-shadow: 5px 6px 14px #8080807a;
+  margin-bottom: 6rem;
+}
+.second-section .features-card .card.card1 {
+  background-image: linear-gradient(159deg, #3c8ce7 65%, #30d2ecb0 100%);
+}
+.second-section .features-card .card.card2 {
+  background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);
+}
+.second-section .features-card .card.card3 {
+  background-image: linear-gradient(135deg, #79f1a4 10%, #0e5cad 100%);
+}
+.second-section .features-card .card.card4 {
+  background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%);
+}
+.second-section .features-card .card .image {
+  max-width: 101px;
+  height: 101px;
+  background: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.second-section .features-card .card .image span {
+  font-size: 6rem;
+  color: dodgerblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.second-section .features-card .card .card-body h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 4rem 0;
+}
+.second-section .features-card .card .card-body p {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin: 0;
+  padding: 0rem 3rem;
+}
+.section-third {
+  padding-left: 23rem;
+  margin: 20rem 0 7rem;
+}
+.section-third .section-third-content-col {
+  padding: 8rem 0 0 6rem;
+}
+.section-third h1 {
+  font-size: 6rem;
+}
+.section-third p {
+  margin: 4rem 0;
+  word-spacing: 2px;
+}
+.section-third-content-col.forth-section-content-col {
+  padding: 8rem 19rem 0 0;
+}
+.fifth-section {
+  background-image: url("../assets/img/bg/bg-elements_4.png");
+}
+.second-section.fifth-section .features-card .card {
+  margin: 10rem 0rem 22.3rem;
+  padding: 0;
+}
+.fifth-section .card-body {
+  background: white;
+  color: black;
+  padding: 4rem;
+  font-family: "Poppins";
+  position: relative;
+}
+.second-section.fifth-section .features-card .card .card-body h2 {
+  color: black;
+  font-size: 1.8rem;
+  margin: 3rem 0rem 2rem;
+  text-transform: capitalize;
+}
+.second-section.fifth-section .features-card .card .card-body p {
+  line-height: 3rem;
+  letter-spacing: 0.7px;
+  padding: 0;
+  font-size: 1.6rem;
+  color: black;
+}
+.second-section.fifth-section .features-card .card .image {
+  position: absolute;
+  background: dodgerblue;
+  border-radius: 0;
+  height: 65px;
+  width: 65px;
+  top: 0px;
+  transform: translateY(-50%);
+}
+.second-section.fifth-section .features-card .card .image span {
+  font-size: 3rem;
+  color: #fffffff2;
+}
+.features {
+  color: dodgerblue;
+}
+h1.section5-heading {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-top: 12rem;
+  font-size: 5.3rem;
+  text-transform: capitalize;
+}
+h1.section5-heading::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 50%;
+  height: 0px;
+  width: 75px;
+  background-color: transparent;
+  transform: translateX(-50%);
+  border-bottom: 2px dotted #9e9e9ea6;
+}
+.fifth-section h1.section5-heading {
+  margin-top: 10rem;
+}
+.item-content {
+  padding-right: 8rem;
+  margin-top: 8rem;
+}
+.small-div {
+  display: inline-block;
+  height: 71px;
+  width: 71px;
+  background: deepskyblue;
+  border-radius: 50%;
+  position: relative;
+}
+.small-div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.7rem;
+}
+.slider-image-col {
+  padding: 7rem 26rem;
+}
+.slider-image-col img {
+  max-width: 43rem;
+  height: auto;
+}
+#owl-two {
+  position: relative;
+}
+.owl-two .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.owl-two .owl-nav button.owl-prev {
+  position: absolute;
+  left: -4%;
+}
+.owl-two .owl-nav button.owl-next {
+  position: absolute;
+  left: 100%;
+}
+.owl-two .owl-nav button i {
+  color: deepskyblue;
+}
+.owl-two .owl-nav button:hover {
+  background-color: transparent;
+}
+.second-section.affordable-section {
+  background-color: black;
+  background-image: none;
+}
+.second-section.affordable-section h1.section5-heading {
+  color: white;
+}
+.second-section.affordable-section .features-card .card {
+  max-width: 44rem;
+  width: 44rem;
+  margin: 8rem 0;
+  padding: 0;
+}
+.second-section.affordable-section .features-card .card .card-body {
+  border-radius: 4px;
+}
+.second-section.affordable-section .features-card .card .card-body h2 {
+  font-size: 2.7rem;
+  position: relative;
+  margin-bottom: 1.3rem;
+  transition: all 0.3s;
+}
+.second-section.affordable-section ul {
+  line-height: 0;
+  margin-bottom: 4rem;
+}
+.second-section.affordable-section ul li {
+  font-size: 4rem;
+  padding: 0;
+  display: inline-block;
+  margin: -2px;
+  color: deepskyblue;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+.second-section.affordable-section h1.money {
+  font-size: 6rem;
+  margin-bottom: 0;
+  transition: all 0.3s;
+}
+.second-section.affordable-section span.monthly {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+.second-section.affordable-section .features-card .card .card-body {
+  transition: all 0.3s;
+}
+.second-section.affordable-section .features-card .card .card-body p {
+  margin: 0.7rem 0;
+  transition: all 0.3s;
+}
+.second-section.affordable-section
+  .features-card
+  .card
+  .card-body
+  p.first-para {
+  margin-top: 3rem;
+}
+.second-section.affordable-section .features-card .card .card-body p.last-para {
+  margin-bottom: 3rem;
+}
+.second-section.affordable-section .features-card .card:hover .card-body {
+  background-color: deepskyblue;
+}
+.second-section.affordable-section .features-card .card:hover .card-body h1,
+.second-section.affordable-section .features-card .card:hover .card-body span,
+.second-section.affordable-section .features-card .card:hover .card-body p,
+.second-section.affordable-section .features-card .card:hover .card-body h2,
+.second-section.affordable-section .features-card .card:hover .card-body ul li {
+  color: white;
+}
+.testimonial-section {
+  background: linear-gradient(to top, #000000a3, #00000026),
+    url("../assets/img/bg/testimonial-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-third.testimonial-section {
+  padding-left: 0rem;
+  margin: 0;
+}
+.testimonial-section .section-third-content-col.forth-section-content-col {
+  padding: 0;
+}
+.testimonial-section > .row {
+  padding: 0rem 24rem;
+}
+.testimonial-section .item-content {
+  margin-top: 13rem;
+}
+.testimonial-section .owl-one .item-content {
+  background: white;
+  padding: 7rem 6rem;
+  margin: 5rem;
+  color: black;
+}
+.testimonial-section .item-content h1 {
+  color: white;
+}
+.testimonial-section .owl-one .item-content h4.name {
+  text-transform: capitalize;
+}
+.testimonial-section .owl-one .item-content h5.position {
+  text-transform: uppercase;
+}
+.testimonial-section .owl-one .item-content p {
+  margin: 2rem 0;
+}
+.testimonial-section .owl-one .item-content ul li {
+  display: inline-block;
+  font-size: 2.6rem;
+  color: #ffc800;
+}
+.testimonial-section .owl-one.owl-theme .owl-dots .owl-dot span {
+  margin: 5px 6px;
+  background: #80808073;
+}
+.testimonial-section .owl-one.owl-theme .owl-dots .owl-dot.active span {
+  background: #00bfff85;
+}
+
+.available-section {
+  background: #071933;
+}
+.available-section .content {
+  margin: 11rem 0rem;
+}
+.available-section .content h1.heading {
+  font-size: 4.3rem;
+  color: white;
+  margin-bottom: 7rem;
+  letter-spacing: 0.4px;
+}
+.available-section .content button.btn {
+  background: white;
+  padding: 1.1rem 4rem;
+  border-radius: 28px;
+  margin-right: 1.7rem;
+  font-size: 0.8rem;
+}
+.available-section .content button.btn:focus {
+  outline: 0;
+  border: 0;
+}
+.available-section .content button span.fa {
+  font-size: 3rem;
+}
+.available-section .content span.brand {
+  font-size: 1.6rem;
+  line-height: 1.2rem;
+}
+.heading-section {
+  margin-bottom: 8rem;
+}
+
+.faq-section .panel-default > .panel-heading {
+  background-color: white;
+  height: 46px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.faq-section .panel-default > .panel-heading .panel-title {
+  height: 100%;
+  display: inherit;
+}
+.faq-section .panel-default > .panel-heading .panel-title a {
+  display: inherit;
+  height: 100%;
+  align-items: center;
+}
+.faq-section .panel-default > .panel-heading .panel-title a span.icon {
+  padding: 1rem 2rem;
+  background: dodgerblue;
+  height: 100%;
+  align-items: center;
+  display: inherit;
+  color: white;
+}
+.faq-section .panel-default > .panel-heading .panel-title a span.heading {
+  padding: 1rem 2rem;
+  color: black;
+  font-weight: 700;
+}
+.faq-section .panel-group .panel + .panel {
+  margin-top: 0px;
+}
+.faq-section .panel-collapse {
+  background-color: #93e6e324;
+  border: 0;
+  outline: 0;
+  padding: 2rem;
+}
+.faq-section .panel-group .panel-heading + .panel-collapse > .list-group,
+.faq-section .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 0;
+}
+.second-section.contact-section .features-card .card {
+  padding: 1rem 0rem 3rem;
+}
+.second-section.contact-section .features-card .card .card-body h2 {
+  margin: 3rem 0 2rem;
+  text-transform: capitalize;
+}
+.git-section h1 {
+  font-size: 8rem;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.git-section.second-section p {
+  font-weight: normal;
+  margin: 4rem auto;
+}
+.social-media-icon {
+  display: flex;
+  flex-direction: row;
+}
+.social-media-icon .item {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #00588b;
+  position: relative;
+  margin-right: 1rem;
+  transition: all 0.2s;
+}
+.social-media-icon .item a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.social-media-icon .item a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+.social-media-icon .item:hover {
+  box-shadow: -6px 7px 14px #bdaaaa;
+  transform: scale(1.07);
+}
+.social-media-icon .item:hover a {
+  transform: scale(1.26);
+}
+.git-section {
+  margin-bottom: 9.7rem;
+}
+.git-section .form-col {
+  padding-top: 2rem;
+}
+.git-section .form-col textarea {
+  min-height: 24rem;
+  width: 100%;
+  padding: 2rem 1.48rem;
+}
+.git-section .form-col input,
+.git-section .form-col textarea {
+  border: none;
+  box-shadow: inset 0 0;
+  border-radius: 0;
+  border-bottom: 1px solid #d3d3d391;
+}
+.git-section .form-col input[placeholder],
+.git-section .form-col textarea[placeholder] {
+  font-size: 1.3rem;
+}
+.git-section .form-col textarea:focus {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #d3d3d391;
+}
+.partners-section {
+  background: #071933;
+}
+.partners-section .owl-three .item-content {
+  padding-right: 0rem;
+  margin-top: 0rem;
+  margin: 7rem 0;
+}
+.partners-section .owl-three img {
+  max-height: 37px;
+  max-width: 200px;
+  height: auto;
+}
+.video-section .section-third-content-col.forth-section-content-col {
+  padding: 8rem 11rem 0 7rem;
+}
+.video-section p {
+  padding-right: 8rem;
+}
+.video-section button {
+  background-color: transparent;
+}
+.video-section button:focus,
+.video-section button:active {
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
+.video-section button span.div {
+  background: deepskyblue;
+  padding: 2rem 3rem;
+  border-radius: 50%;
+  position: relative;
+}
+.video-section button span.div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+.video-section button a {
+  color: deepskyblue;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  /* sticky or fixed are fine */
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  /* background when scroll is in the top */
+  transition: background 0.5s; /* control how smooth the background changes */
+}
+
+header.scrolled {
+  background: #5389ec;
+  height: 96px;
+}
+header.scrolled a {
+  color: white;
+  font-weight: 500;
+}
